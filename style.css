@@ -1,80 +1,40 @@
-
-
-    
-    
-
-body{background-color: transparent;
-    font-family: 'Bebas Neue', cursive;
-}
-
+/*START OF CSS*/
+body{
+    background-color: grey;
+    font-family: 'Bebas Neue', cursive;  
+} 
 header{
 color: white;
 font-size: 70px;
-
-
-
 }
-#background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-
-header .logo{
-    font-size: 70px;
-    
-    color: rgb(255, 255, 255);
-   margin-left: 1%;
-   
-    
-   
-}
-
 header.menu{
-    color: white;
-    text-decoration: none;
-
+     color: white;
+     text-decoration: none;
 }
-/*https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css
+/*CODE FROM:https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css*/
 .container {
-    width: 50px;
-    height: 30px;
+    width: 200%;
+    height: 120px;
 }
-
-/* Resize images */
+#headerlogo{
+    float: none;
+}
+/*IMAGE RESIZING*/
 .container img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
-h1 {
-    font-size: 100px;
-    color: white;
-    float: right;
+h1{
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bold;
 }
-
-h2 {
-    font-size: 150px;
-    color: whitesmoke;
-    float: center;
+h3{
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bold;
 }
-
-   h3 {
-   font-size: 30px;
-   color: rgb(255, 255, 255);
-   float: right;
-   }
-
-   h2 {
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    float: right;
+h4{
+    font-family: 'Bebas Neue' cursive;
+    font-weight: normal;
 }
 /*NAVIGATION BAR*/
 a{
@@ -84,7 +44,7 @@ a{
 nav{
   font-family: 'League Spartan' sans-serif;
   float: right;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 ul {
     list-style-type: none;
@@ -93,7 +53,7 @@ ul {
     padding: 0;
 }
 li {
-    color: rgb(255, 255, 255);
+    color: black;
     background:none;
     display: block;
     float: right;
@@ -104,7 +64,7 @@ li {
 }
 li a{
     display:inline;
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: right;
     font-family: 'League Spartan' sans-serif;
     font-weight: bold;
@@ -136,79 +96,51 @@ ul li ul li {
   clear: both;
   width: 100%;
 }
-
-
-   li a{
-    display:inline-block; 
-  
-    color: rgb(255, 255, 255);
-   
-
-    font-size: 50%;
-  }
-  a{
-      padding: 8px;
-      text-decoration: none;
-  }
-  ul {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    
-  }
-
-  img {
-    display: center;
-    width: 60%;
-    align-items: right;
-  }
-
- 
-
-  footer{
+/*ICONS*/
+  .icons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.container img {
+    width: 20%;
+    height: auto;
+}
+/*FOOTER*/
+footer{
     margin-top: 500px;
-    height: 60px;
-    background: transparent;
+    height: 100px;
+    color: white;
     left: 0;
     right: 0;
-    position: absolute;
-  }
-  
-  .footer-content{
-    background: whitesmoke;
+}
+.footer-content{
+    background: white;
     padding: 24px;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
+    font-family: 'Bebas Neue' cursive;
     color: black;
-   
-
-    
-  }
-  
-  .footer-content p{
+    text-align: center;
+}
+.footer-content p{
     max-width: 500px;
+    margin-bottom: 10px auto;
     line-height: 28px;
     font-size: 14px;
     line-break: auto;
-   
-  }
-  
-  .footer-content ul a{
-    
+}
+.footer-content ul a{
+    display: inline-block;
     margin-bottom: 5px;
     vertical-align: middle;
-    color: rgb(255, 255, 255);
-  }
-  
-  .footer-content ul li{
-    display: inline-block;
-  }
-  footer img{
-    width: 70px;
-    height: auto;
-    padding: -60px;
+    color: #000;
 }
-   
-   
-
-      
+.footer-content ul li{
+    display: inline-block;
+}
+footer img{
+  width: 70px;
+  height: auto;
+  padding: -60px;
+}
+/*END OF CODE*/
+/*MOST OF THE CODE WAS FROM MY PREVIOUS PROJECTS AND W3SCHOOLS*/
