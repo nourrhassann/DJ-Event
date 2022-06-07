@@ -1,6 +1,6 @@
 /*START OF CSS*/
 body{
-    background-image: url(Images/Waves.jpg);
+    background-color: grey;
     font-family: 'Bebas Neue', cursive;  
 }
 header{
@@ -13,7 +13,7 @@ header.menu{
 }
 /*CODE FROM:https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css*/
 .container {
-    width: 100%;
+    width: 200%;
     height: 120px;
 }
 #headerlogo{
@@ -140,14 +140,14 @@ input {
 footer{
     margin-top: 500px;
     height: 100px;
-    color: grey;
+    color: white;
     left: 0;
     right: 0;
 }
 .footer-content{
-    background: grey;
+    background: white;
     padding: 24px;
-    font-family: 'League Spartan,' sans-serif;
+    font-family: 'Bebas Neue' cursive;
     color: black;
     text-align: center;
 }
