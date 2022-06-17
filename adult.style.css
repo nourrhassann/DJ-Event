@@ -70,6 +70,7 @@ li a{
     font-family: 'League Spartan' sans-serif;
     font-weight: bold;
     float: right;
+    font-size: 50%
 }
 /*CODE FROM: https://css-tricks.com/solved-with-css-dropdown-menus/*/
 li:hover {
