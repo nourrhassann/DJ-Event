@@ -1,6 +1,6 @@
 /*START OF CSS*/
 body{
-    background-color: grey;
+    background-image: url(Images/Waves.jpg);
     font-family: 'Bebas Neue', cursive;  
 }
 header{
@@ -13,7 +13,7 @@ header.menu{
 }
 /*CODE FROM:https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css*/
 .container {
-    width: 200%;
+    width: 100%;
     height: 120px;
 }
 #headerlogo{
@@ -21,7 +21,7 @@ header.menu{
 }
     /*IMAGE RESIZING*/
 .container img {
-    width: 100%;
+    width: 300%;
     height: auto;
 }
     /*FONTS*/
@@ -70,7 +70,7 @@ li a{
     font-family: 'Bebas Neue' cursive;
     font-weight: bold;
     float: right;
-    font-size: 50%;
+    font-size: 50%
 }
 /*CODE FROM: https://css-tricks.com/solved-with-css-dropdown-menus/*/
 li:hover {
@@ -148,14 +148,14 @@ a {
 footer{
     margin-top: 500px;
     height: 100px;
-    color: white;
+    color: grey;
     left: 0;
     right: 0;
 }
 .footer-content{
-    background: white;
+    background: grey;
     padding: 24px;
-    font-family: 'Bebas Neue' cursive;
+    font-family: 'League Spartan,' sans-serif;
     color: black;
     text-align: center;
 }

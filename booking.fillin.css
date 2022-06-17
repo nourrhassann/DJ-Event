@@ -1,6 +1,6 @@
 /*START OF CSS*/
 body{
-    background-color: grey;
+    background-image: url(Images/Waves.jpg);
     font-family: 'Bebas Neue', cursive;  
 }
 header{
@@ -16,12 +16,12 @@ header.menu{
     width: 200%;
     height: 120px;
 }
-#headerlogo{
-float: none;
+    #headerlogo{
+        float: none;
     }
 /*IMAGE RESIZING*/
 .container img {
-    width: 100%;
+    width: 300%;
     height: auto;
 }
 /*FONTS*/
@@ -61,7 +61,7 @@ li a{
     font-family: 'Bebas Neue' cursive;
     font-weight: bold;
     float: right;
-    font-size: 50%;
+    font-size: 50%
 }
 /*CODE FROM: https://css-tricks.com/solved-with-css-dropdown-menus/*/
 li:hover {
@@ -138,14 +138,14 @@ a {
 footer{
     margin-top: 500px;
     height: 100px;
-    color: white;
+    color: grey;
     left: 0;
     right: 0;
 }
 .footer-content{
-    background: white;
+    background: grey;
     padding: 24px;
-    font-family: 'Bebas Neue' cursive;
+    font-family: 'League Spartan,' sans-serif;
     color: black;
     text-align: center;
 }
